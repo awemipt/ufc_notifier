@@ -1,0 +1,26 @@
+{
+  "event": {
+    "id": "ufc-fn-2026-08-29",
+    "name": "UFC Fight Night: Volkov vs Almeida",
+    "scheduled_start": "2026-08-29T22:00:00+00:00"
+  },
+  "sim": {
+    "turnaround_min": 11.0,
+    "first_fight_delay_min": 2.0
+  },
+  "fights": [
+    {"id": "f01", "order_no": 1, "segment": "early_prelims", "fighter_red": "Danny Costa", "fighter_blue": "Marat Aliyev", "scheduled_rounds": 3, "sim_duration_min": 16.5, "sim_method": "decision"},
+    {"id": "f02", "order_no": 2, "segment": "early_prelims", "fighter_red": "Jake Morrison", "fighter_blue": "Tiago Ferreira", "scheduled_rounds": 3, "sim_duration_min": 3.2, "sim_method": "KO"},
+    {"id": "f03", "order_no": 3, "segment": "early_prelims", "fighter_red": "Kang Min-ho", "fighter_blue": "Alex Petrov", "scheduled_rounds": 3, "sim_duration_min": 8.4, "sim_method": "submission"},
+    {"id": "f04", "order_no": 4, "segment": "early_prelims", "fighter_red": "Luis Herrera", "fighter_blue": "Sam Okafor", "scheduled_rounds": 3, "sim_duration_min": 16.5, "sim_method": "decision"},
+    {"id": "f05", "order_no": 5, "segment": "prelims", "fighter_red": "Artur Melnyk", "fighter_blue": "Chris Doyle", "scheduled_rounds": 3, "sim_duration_min": 5.1, "sim_method": "TKO"},
+    {"id": "f06", "order_no": 6, "segment": "prelims", "fighter_red": "Rafael Duarte", "fighter_blue": "Yusuf Demir", "scheduled_rounds": 3, "sim_duration_min": 12.7, "sim_method": "submission"},
+    {"id": "f07", "order_no": 7, "segment": "prelims", "fighter_red": "Bekzat Nurlanov", "fighter_blue": "Tony Ramos", "scheduled_rounds": 3, "sim_duration_min": 16.5, "sim_method": "decision"},
+    {"id": "f08", "order_no": 8, "segment": "prelims", "fighter_red": "Ilya Sorokin", "fighter_blue": "Marcus Hale", "scheduled_rounds": 3, "sim_duration_min": 1.4, "sim_method": "KO"},
+    {"id": "f09", "order_no": 9, "segment": "prelims", "fighter_red": "Diego Fontes", "fighter_blue": "Aaron Whitfield", "scheduled_rounds": 3, "sim_duration_min": 9.8, "sim_method": "TKO"},
+    {"id": "f10", "order_no": 10, "segment": "main_card", "fighter_red": "Zurab Kipiani", "fighter_blue": "Eddie Vance", "scheduled_rounds": 3, "sim_duration_min": 16.5, "sim_method": "decision"},
+    {"id": "f11", "order_no": 11, "segment": "main_card", "fighter_red": "Hugo Lacerda", "fighter_blue": "Denis Volkov Jr.", "scheduled_rounds": 3, "sim_duration_min": 6.9, "sim_method": "KO"},
+    {"id": "f12", "order_no": 12, "segment": "main_card", "fighter_red": "Pat Callahan", "fighter_blue": "Ruslan Gadzhiev", "scheduled_rounds": 3, "sim_duration_min": 11.3, "sim_method": "submission"},
+    {"id": "f13", "order_no": 13, "segment": "main_card", "fighter_red": "Alexander Volkov", "fighter_blue": "Jailton Almeida", "scheduled_rounds": 5, "sim_duration_min": 22.6, "sim_method": "decision"}
+  ]
+}

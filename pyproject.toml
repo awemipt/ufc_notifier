@@ -1,0 +1,17 @@
+# Корневой pyproject — только конфигурация инструментов (пакеты живут в libs/ и services/).
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".venv", "deploy"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+# B008: `Depends(...)` в дефолтах аргументов — идиома FastAPI.
+ignore = ["B008"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = "--import-mode=importlib"
+testpaths = ["libs", "services"]
+norecursedirs = [".venv", "deploy", "*.egg-info"]
